@@ -24,6 +24,8 @@
       subMaxLevel: 2,
       // 加载导航栏
       loadNavbar: true,
+      // 合并导航栏到侧边栏
+      mergeNavbar: true,
       // 激活封面功能
       coverpage: true,
       // 切换页面后是否自动跳转到页面顶部
@@ -37,10 +39,18 @@
         placeholder: '搜索',
         noData: '找不到结果!',
       },
-      // // 在Github上编辑
-      // plugins: [
-      //   EditOnGithubPlugin.create("https://github.com/shuyang532/shuyang532.github.io/blob/main/docs/", null, "快速编辑")
-      // ]
+      plugins: [
+        function (hook, vm) {
+          hook.beforeEach(html => {
+            const editHtml = `最近更新时间：{docsify-updated}\n\n[:memo: 编辑](https://github.com/shuyang532/shuyang532.github.io/blob/main/docs/${vm.route.file})\n`;
+            return (
+              html +
+              '\n\n----\n\n' +
+              editHtml
+            );
+          });
+        },
+      ],
       // 字数统计
       count: {
         countable: true,
@@ -57,19 +67,6 @@
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-  <script>
-    const gitalk = new Gitalk({
-      clientID: 'Github Application Client ID',
-      clientSecret: 'Github Application Client Secret',
-      repo: 'Github repo',
-      owner: 'Github repo owner',
-      admin: ['Github repo collaborators, only these guys can initialize github issues'],
-      distractionFreeMode: false
-    })
-  </script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 </body>
 
