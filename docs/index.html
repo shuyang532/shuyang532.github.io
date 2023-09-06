@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+</head>
+
+<body>
+  <div id="app">加载中</div>
+  <script>
+    window.$docsify = {
+      // 文档标题
+      name: 'shuyang',
+      // 配置仓库地址
+      repo: 'https://github.com/shuyang532/',
+      // 加载侧边栏
+      loadSidebar: true,
+      subMaxLevel: 2,
+      // 加载导航栏
+      loadNavbar: true,
+      // 激活封面功能
+      coverpage: true,
+      // 切换页面后是否自动跳转到页面顶部
+      auto2top: true,
+      // 替换主题色
+      themeColor: '#2376b7',
+      // 文档更新日期格式
+      formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
+      // 全局搜索
+      search: {
+        placeholder: '搜索',
+        noData: '找不到结果!',
+      },
+      // // 在Github上编辑
+      // plugins: [
+      //   EditOnGithubPlugin.create("https://github.com/shuyang532/shuyang532.github.io/blob/main/docs/", null, "快速编辑")
+      // ]
+      // 字数统计
+      count: {
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'right',
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese',
+        isExpected: true
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'Github Application Client ID',
+      clientSecret: 'Github Application Client Secret',
+      repo: 'Github repo',
+      owner: 'Github repo owner',
+      admin: ['Github repo collaborators, only these guys can initialize github issues'],
+      distractionFreeMode: false
+    })
+  </script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+</body>
+
+</html>
