@@ -6,8 +6,9 @@
 
 
 * [美学](beautiful/)
-  * [茜茜的访谈集锦](beautiful/interview_list.md)
+  * [茜茜的访谈集锦](beautiful/interview_list)
 
-- DEMO1
+- 日常随笔
+  - [230907](diary/0907)
 
 - DEMO2
