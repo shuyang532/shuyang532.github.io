@@ -7,6 +7,7 @@
 
 - 神仙姐姐
   - [茜茜的访谈集锦](beautiful/interview_list)
+  - [茜茜表演过的角色](beautiful/roles_performed)
 
 - 日常随笔
   - [230907](diary/0907)
