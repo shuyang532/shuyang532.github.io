@@ -10,4 +10,5 @@
   - [茜茜表演过的角色](beautiful/roles_performed)
 
 - 日常随笔
+  - [简单聊聊工作](diary/0908)
   - [230907](diary/0907)
