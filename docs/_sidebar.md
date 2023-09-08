@@ -3,7 +3,7 @@
 * [首页](/)
 * [关于我](about)
 * [快速搭建一个 Github Page 站点](create_a_github_page_site)
-
+* [Markdown 常见语法](markdown)
 
 - 神仙姐姐
   - [茜茜的访谈集锦](beautiful/interview_list)
