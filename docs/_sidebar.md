@@ -4,6 +4,7 @@
 * [关于我](about)
 * [快速搭建一个 Github Page 站点](create_a_github_page_site)
 * [Markdown 常见语法](markdown)
+* [值得关注的网站](recommend_website)
 
 - CSS 奇思妙想
   - [磨砂玻璃效果](css/frosted_glass)
