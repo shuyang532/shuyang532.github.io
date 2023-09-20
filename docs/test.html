@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="next-head-count" content="1" />
+    <script>
+      // 设置页面页面根节点 fontSize
+      (function (doc, win) {
+        // 兼容ios webview取不到前者导致fontSize为32
+        let docEl = doc.documentElement || doc.body,
+          resizeEvt =
+            "orientationchange" in window ? "orientationchange" : "resize",
+          recalc = function () {
+            const clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            let fontSize = 16 * (clientWidth <= 750 ? clientWidth / 375 : 1); // online写死16px
+            docEl.style.fontSize = fontSize + "px";
+            const dpi = window.devicePixelRatio;
+            docEl.setAttribute("data-dpi", dpi);
+          };
+        recalc();
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+      })(document, window);
+    </script>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="/hoteljsmap/webapp/index/static/favicon.ico" />
+    <link rel="preconnect" href="//m.avuxicdn.com" />
+    <link rel="dns-prefetch" href="//m.avuxicdn.com" />
+    <link rel="preconnect" href="//m.avuxiapis.com" />
+    <link rel="dns-prefetch" href="//m.avuxiapis.com" />
+    <link rel="preconnect" href="//m.trip.com" />
+    <link rel="dns-prefetch" href="//m.trip.com" />
+    <link rel="preconnect" href="//webresource.tripcdn.com" />
+    <link rel="dns-prefetch" href="//webresource.tripcdn.com" />
+    <link rel="preconnect" href="//ak-s.tripcdn.com" />
+    <link rel="dns-prefetch" href="//ak-s.tripcdn.com" />
+    <link rel="preconnect" href="//api.mapbox.com" />
+    <link rel="dns-prefetch" href="//api.mapbox.com" />
+    <style>
+      #__next {
+        height: 100%;
+      }
+    </style>
+    <script>
+      function avapilGoogle() {
+        if (window.AVUXI && window.AVUXI.MapStart && window.tripmapGoogleRef) {
+          window.AVUXI.MapStart(
+            window.tripmapGoogleRef,
+            "6405ce59a904e838e65eda93"
+          );
+        }
+      }
+      function avapilMapbox() {
+        if (window.AVUXI && window.AVUXI.MapStart && window.tripmapMapboxRef) {
+          window.AVUXI.MapStart(
+            window.tripmapMapboxRef,
+            "63ec7cc1a904e838e65ed94b"
+          );
+        }
+      }
+    </script>
+    <link
+      rel="preload"
+      href="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/css/0e925e55d8f9ec3f.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/css/0e925e55d8f9ec3f.css"
+      data-n-p=""
+    />
+    <noscript data-n-css=""></noscript>
+    <script
+      defer=""
+      nomodule=""
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
+    ></script>
+    <script
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/chunks/webpack-073752a70a6103e4.js"
+      defer=""
+    ></script>
+    <script
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/chunks/nfes-331379625d6d5f29.js"
+      defer=""
+    ></script>
+    <script
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/chunks/framework-17fab00f287fdb48.js"
+      defer=""
+    ></script>
+    <script
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/chunks/main-f029e03c32b9a09b.js"
+      defer=""
+    ></script>
+    <script
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/chunks/pages/_app-ba6fc81ce9322c81.js"
+      defer=""
+    ></script>
+    <script
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/chunks/29107295-0e369c5dad7318bf.js"
+      defer=""
+    ></script>
+    <script
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/chunks/ad7f724d-f0edd2bd3f2b5c8c.js"
+      defer=""
+    ></script>
+    <script
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/chunks/commons-3f54dd1721567cc1.js"
+      defer=""
+    ></script>
+    <script
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static/chunks/pages/index-3c9da5e6af5b32a4.js"
+      defer=""
+    ></script>
+    <script
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static//_buildManifest.js"
+      defer=""
+    ></script>
+    <script
+      src="https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734/_next/static//_ssgManifest.js"
+      defer=""
+    ></script>
+  </head>
+  <body class="tripmap trip light app">
+    <div id="__next">
+      testtyttttttt
+      <style>
+        /* [object Object] */
+      </style>
+      <div
+        id="tripmap"
+        style="position: relative; width: 100%; height: 100%; overflow: hidden"
+      ></div>
+    </div>
+    <script
+      async=""
+      src="https://ak-s.tripcdn.com/modules/ares/nfes-libs/bridge.314cf04835cba263b716df25e8c144d8.js"
+    ></script>
+    <script src="https://ak-s.tripcdn.com/modules/ares/nfes-libs/hybridInit.37e9ddfe4af3bf8f4a20463d5c082162.js"></script>
+    <script>
+      window._serverStart = 1694672983149;
+      window._pageBeginTime = window._beginTime = new Date().getTime();
+      window.mcdAppID = "5275";
+      window.nfesVersion = "6.0.41";
+      try {
+        if (window["$_bf"]) {
+          window["$_bf"]["loaded"] = true;
+        } else {
+          window["$_bf"] = { loaded: true };
+        }
+      } catch (e) {}
+      window["UBT_ITAG"] = true;
+      try {
+        var elem = document.createElement("canvas");
+        if (!!(elem && elem.getContext && elem.getContext("2d"))) {
+          window.nfes_isSupportWebP =
+            elem.toDataURL("image/webp").indexOf("data:image/webp") == 0;
+          var exp = new Date();
+          exp.setTime(new Date().getTime() + 3 * 365 * 24 * 60 * 60 * 1000);
+          var domain = window.location.hostname.split(".").slice(-2).join(".");
+          document.cookie =
+            "nfes_isSupportWebP=1;domain=" +
+            domain +
+            ";path=/;expires=" +
+            exp.toGMTString();
+        }
+      } catch (e) {}
+      try {
+        if (!window["UBT_API"]) {
+          window["UBT_API"] = [];
+        }
+        if (navigator.serviceWorker) {
+          var isUnregister = false;
+          var runEnv = "prod";
+          var vd = "/hoteljsmap/webapp/index";
+          var _sendSWUbt = function (status) {
+            window["UBT_API"].push({
+              type: "send",
+              data: {
+                type: "metric",
+                key: "104047",
+                data: { value: 1, tag: { vd: vd, status: status } },
+              },
+            });
+          };
+          if (window.location.search.indexOf("closeSW=1") !== -1) {
+            isUnregister = true;
+          }
+          if (!isUnregister) {
+            if (window.location.hostname.indexOf("localhost") != -1) {
+              runEnv = "local";
+            }
+            var swSrc =
+              "/hoteljsmap/webapp/index/nfes/serviceworker/sw.js?v=2023914" +
+              "&isSupportWebP=" +
+              !!window.nfes_isSupportWebP +
+              "&runEnv=" +
+              runEnv;
+            window.addEventListener("load", function () {
+              navigator.serviceWorker
+                .register(swSrc, { scope: vd })
+                .then(function () {
+                  _sendSWUbt("success");
+                  console.log("servicewoker done!");
+                })
+                .catch(function (error) {
+                  _sendSWUbt("fail");
+                  console.log("sorry", error);
+                });
+            });
+          } else {
+            navigator.serviceWorker
+              .getRegistrations()
+              .then(function (rs) {
+                for (var i = 0; i < rs.length; i++) {
+                  var r = rs[i];
+                  var scop = r.scope;
+                  if (new RegExp(vd + "$").test(scop)) {
+                    _sendSWUbt("unregister");
+                    r.unregister();
+                  }
+                }
+              })
+              .catch(function (err) {
+                console.log("Service Worker registration failed: ", err);
+              });
+          }
+        }
+      } catch (e) {}
+    </script>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": {
+          "pageProps": {
+            "initialState": {
+              "pageState": {
+                "isDebug": 0,
+                "isDev": 0,
+                "env": "prod",
+                "group": "trip",
+                "locale": "en-US",
+                "scene": "hotelList",
+                "mapType": "Mapbox",
+                "boundsWithPadding": 0,
+                "isForceCenter": 0,
+                "mapTop": 0,
+                "mapLeft": 0,
+                "cardHeight": 0,
+                "initZoomConfig": {
+                  "minZoom": 3.2,
+                  "maxZoom": 19,
+                  "countryZoom": 3.2,
+                  "cityAroundZoom": 7,
+                  "cityZoom": 8.7,
+                  "nearZoom": 12.7,
+                  "hotelSingleZoom": 10.7,
+                  "airportHideTextZoom": 7
+                },
+                "sharkKeys": ["%1$s more", "%1$s more", "Sold Out"],
+                "darkMode": "light",
+                "isMapInconsistent": false
+              }
+            },
+            "key": "/hoteljsmap/webapp/index?t=1694672982049\u0026mapType=Mapbox\u0026scene=hotelList",
+            "pathname": "/",
+            "query": {
+              "seo": 1,
+              "envObj": {
+                "env": "prod",
+                "isCtrip": true,
+                "pro": false,
+                "dev": false,
+                "plat": "iphone",
+                "phoneModel": "iphonex",
+                "isSupportWebP": false,
+                "configData": null
+              },
+              "t": "1694672982049",
+              "mapType": "Mapbox",
+              "scene": "hotelList"
+            },
+            "asPath": "/hoteljsmap/webapp/index?t=1694672982049\u0026mapType=Mapbox\u0026scene=hotelList",
+            "realPath": "/hoteljsmap/webapp/index?t=1694672982049\u0026mapType=Mapbox\u0026scene=hotelList"
+          }
+        },
+        "page": "/",
+        "query": {
+          "seo": 1,
+          "envObj": {
+            "env": "prod",
+            "isCtrip": true,
+            "pro": false,
+            "dev": false,
+            "plat": "iphone",
+            "phoneModel": "iphonex",
+            "isSupportWebP": false,
+            "configData": null
+          },
+          "t": "1694672982049",
+          "mapType": "Mapbox",
+          "scene": "hotelList"
+        },
+        "buildId": "",
+        "assetPrefix": "https://ak-s.tripcdn.com/NFES/hoteljsmap/1693908239734",
+        "runtimeConfig": {
+          "appPrefix": "/hoteljsmap/webapp/index",
+          "routerConfig": [],
+          "mpaasAppID": 700015
+        },
+        "isFallback": false,
+        "customServer": true,
+        "gip": true,
+        "rootMessageId": "100041391-0a81769a-470742-60047",
+        "isSSR": true,
+        "isForceRender": false,
+        "isServerGetData": true,
+        "__pd": "{\"fetchPerf\":[{\"success\":true,\"statusCode\":200,\"RootMessageId\":\"100025527-0a70c21f-470742-2695005\",\"CLOGGING_TRACE_ID\":\"6205431278781824048\",\"info\":\"\",\"framework\":\"nfes-server\",\"url\":\"http://apigateway.ctripcorp.com/restapi/soa2/19478/mapInit\",\"serviceCode\":\"19478\",\"serviceOperation\":\"mapInit\",\"method\":\"POST\",\"pageUrl\":\"http://map.trip.com/hoteljsmap/webapp/index?t=1694672982049\u0026mapType=Mapbox\u0026scene=hotelList\",\"serverProtocol\":\"\",\"duration\":78}],\"pd\":{\"r\":3,\"_d\":78,\"_p\":2}}",
+        "version": "6.0.41",
+        "i18nCaptchaURL": "https://ak-s.tripcdn.com/modules/infosec/jigsawCaptcha/jigsaw-captcha.min.95fd114d840e4b0d888ad3fdafce82a0.macro.js",
+        "__nfesGlobalDatas": {},
+        "scriptLoader": []
+      }
+    </script>
+    <link
+      href="https://ak-s.tripcdn.com/modules/infosec/jigsawCaptcha/jigsaw-captcha.min.95fd114d840e4b0d888ad3fdafce82a0.macro.js"
+      rel="prefetch"
+    />
+  </body>
+</html>
