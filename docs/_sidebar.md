@@ -7,7 +7,7 @@
 * [值得关注的网站](recommend_website)
 
 - 文章翻译
-  - [「翻译」四种常见的代码覆盖率类型](docs/articles/ta_code_coverage)
+  - [「翻译」四种常见的代码覆盖率类型](articles/ta_code_coverage)
 
 - CSS 奇思妙想
   - [「357期」 CSS Mask Animations, Three.js Interiors, and a Direction Aware Glow](css/spark_357)
