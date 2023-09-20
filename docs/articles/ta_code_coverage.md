@@ -6,7 +6,7 @@
 
 > Learn what code coverage is and discover four common ways to measure it.
 
-了解什么是代码覆盖率并发现四种常见的衡量方法。
+了解什么是代码覆盖率并探索四种常见的衡量方法。
 
 日期：2023年9月6日
 
