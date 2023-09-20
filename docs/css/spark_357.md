@@ -7,15 +7,7 @@
 - [YouTube视频](https://www.youtube.com/watch?v=doKbDTWsMtw)
 - [参考代码](https://codepen.io/miocene/pen/rNoyLyO)
 
-实践学习
-https://shuyang532.github.io/demo/3D_in_CSS_is_not_real.html
-
-<iframe height="600" width="100%" scrolling="no" title="Zdog trefoil" src="[https://codepen.io/desandro/embed/XWNWPve?height=600&theme-id=light&default-tab=js,result](https://shuyang532.github.io/demo/3D_in_CSS_is_not_real.html)" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/desandro/pen/XWNWPve'>Zdog trefoil</a> by Dave DeSandro
-  (<a href='https://codepen.io/desandro'>@desandro</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-[实践](https://shuyang532.github.io/demo/3D_in_CSS_is_not_real.html ':include')
+[我的代码实践](https://shuyang532.github.io/demo/3D_in_CSS_is_not_real.html ':include width=100% height=400px')
 
 ## Recipe Card
 
