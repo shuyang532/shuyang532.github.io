@@ -1,10 +1,5 @@
 # 357期 CSS Mask Animations, Three.js Interiors, and a Direction Aware Glow
 
-https://codepen.io/spark/357
-CSS Mask Animations, Three.js Interiors, and a Direction Aware Glow
-CSS 蒙版动画、Three.js 内饰和方向感知发光
-
-
 [CSS Mask Animations, Three.js Interiors, and a Direction Aware Glow](https://codepen.io/spark/357)
 
 ## Sunday CSS #10: 3D in CSS is not real
@@ -14,6 +9,9 @@ CSS 蒙版动画、Three.js 内饰和方向感知发光
 > [参考代码](https://codepen.io/miocene/pen/rNoyLyO)
 
 实践学习
+https://shuyang532.github.io/demo/3D_in_CSS_is_not_real.html
+
+
 ## Recipe Card
 
 > 食谱卡的玻璃形态设计 glassmorphic 
