@@ -4,11 +4,13 @@
 
 ---
 
-> Learn what code coverage is and discover four common ways to measure it.
-> 了解什么是代码覆盖率并发现四种常见的衡量方法。
-> 
+Learn what code coverage is and discover four common ways to measure it.
+
+了解什么是代码覆盖率并发现四种常见的衡量方法。
+
 > 日期：2023年9月6日
-> 作者：Ramona Schwering & Jecelyn Yeen
+> 作者：Ramona Schwering
+> 作者：Jecelyn Yeen
 
 Have you heard the phrase "code coverage"? In this post, we will explore what code coverage in tests is and four common ways to measure it.
 
