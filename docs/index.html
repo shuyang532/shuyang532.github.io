@@ -42,7 +42,7 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(html => {
-            const editHtml = `最近更新时间：{docsify-updated}\n\n[:memo: 编辑](https://github.com/shuyang532/shuyang532.github.io/blob/main/docs/${vm.route.file})\n`;
+            const editHtml = `[:memo: 编辑](https://github.com/shuyang532/shuyang532.github.io/blob/main/docs/${vm.route.file})\n`;
             return (
               html +
               '\n\n----\n\n' +

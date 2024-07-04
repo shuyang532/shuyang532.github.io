@@ -1,13 +1,10 @@
-<!-- docs/_sidebar.md -->
+<!-- 定制侧边栏 -->
 
-* [首页](/)
-* [关于我](about)
-* [快速搭建一个 Github Page 站点](create_a_github_page_site)
-* [Markdown 常见语法](markdown)
+* [关于我](core/about)
 
-- 神仙姐姐
-  - [茜茜的访谈集锦](beautiful/interview_list)
-  - [茜茜表演过的角色](beautiful/roles_performed)
+- 2024
+  - [Nodejs 版本升级 <small>2024-07-05</small>](timeline_2024/0705_update_nodejs.md)
 
-- 日常随笔
-  - [230907](diary/0907)
+- 2023
+  - [Github Page 站点搭建细节 <small>2023-09-07</small>](timeline_2023/0907_create_a_github_page_site)
+  - [第一篇 <small>2023-09-07</small>](timeline_2023/0907_first_blog)
