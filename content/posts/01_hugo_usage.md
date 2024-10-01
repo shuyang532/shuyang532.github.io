@@ -1,7 +1,7 @@
 +++
 title = '使用 Hugo 搭建个人博客'
 date = 2024-10-02T00:01:11+08:00
-draft = true
+draft = false
 +++
 
 ## 介绍

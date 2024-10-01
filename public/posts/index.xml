@@ -6,7 +6,66 @@
     <description>Recent content in Posts on 精神病院患者手记</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2024 00:28:22 +0800</lastBuildDate>
     <atom:link href="https://shuyang532.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023年9月黄山游记</title>
+      <link>https://shuyang532.github.io/posts/02_huangxin_trip_in_2023/</link>
+      <pubDate>Wed, 02 Oct 2024 00:28:22 +0800</pubDate>
+      <guid>https://shuyang532.github.io/posts/02_huangxin_trip_in_2023/</guid>
+      <description>&lt;p&gt;赶路很累，但是真的很壮观&lt;/p&gt;
+&lt;p&gt;看到了云海，云雾缭绕，宛如仙境&lt;/p&gt;
+&lt;p&gt;绕了一圈终于到白鹅山庄，楼梯太长太高，爬到半路就气喘吁吁了，感谢路上遇到的大叔，帮我拎了一包东西上来&lt;/p&gt;
+&lt;p&gt;西边没有落日&lt;/p&gt;
+&lt;p&gt;但是东边有很好看的云层，层层叠叠，一大朵云被照耀着，熠熠生辉&lt;/p&gt;
+&lt;p&gt;坐云谷索道上山的时候接到一通视频，其实很不开心，很难过，但是观山之后就突然释然了，一切随心吧&lt;/p&gt;
+&lt;p&gt;如此大好山河，壮丽景观，更值得我全身心投入&lt;/p&gt;
+&lt;p&gt;这算是没有光污染的夜晚么？沉重静谧，但又充满安全感，夜晚的天空真美啊，浅白灰白深灰深深灰色的心。我独自一人坐在角落里，静静地看着天空&lt;/p&gt;
+&lt;p&gt;今天是订了酒店，但感觉我完全可以带好装备窝在这个角落里，看一整晚的夜空&lt;/p&gt;
+&lt;p&gt;要准备下雨的准备！！突然就开始飘小雨了&lt;/p&gt;
+&lt;p&gt;四点四十分，我看到了星空，好多好多的星星，繁星璀璨，今天没有戴月，但有披星之乐&lt;/p&gt;
+&lt;p&gt;山顶的风很大，幸好我带了羽绒服&lt;/p&gt;
+&lt;p&gt;是星河诶&lt;/p&gt;
+&lt;p&gt;大片的云海，云在脚下，真壮观啊&lt;/p&gt;
+&lt;p&gt;找到一个好位置，等待日出&lt;/p&gt;
+&lt;p&gt;日出真漂亮啊，好大的红日，手机还是拍不出来这种感觉&lt;/p&gt;
+&lt;p&gt;吃完早饭继续出发，下一站北海和西海大峡谷，途中看到了很多很多&lt;/p&gt;
+&lt;p&gt;雨伞松（umbrella pine），像一柄大伞&lt;/p&gt;
+&lt;p&gt;梦笔生花（magic brush with a flower on the tip），很奇妙，买了对应的书签&lt;/p&gt;
+&lt;p&gt;清凉台（cool terrance），四面悬空&lt;/p&gt;
+&lt;p&gt;猴子观海（stone monkey grazing over the clouds），应该是黄山能够到达的最高处，真的壮观啊，九月正适合登高望远！&lt;/p&gt;
+&lt;p&gt;团结松（united pine），一松多干，相抱相依&lt;/p&gt;
+&lt;p&gt;一路有小溪相伴，流水潺潺&lt;/p&gt;
+&lt;p&gt;买了黄山文创雪糕，蜜桃哈密瓜牛奶口味&lt;/p&gt;
+&lt;p&gt;终于终于到了，下山太累了，顺利坐上小火车&lt;/p&gt;
+&lt;p&gt;下一站，迎客松和玉屏索道&lt;/p&gt;
+&lt;p&gt;玉屏景区的雾气还未散去，又见云雾缭绕，飘飘欲仙&lt;/p&gt;
+&lt;p&gt;迎客松 ✅&lt;/p&gt;
+&lt;p&gt;13:15 索道下山&lt;/p&gt;
+&lt;p&gt;在口福徽菜馆尝试了当地菜：笋尖炒肉+石耳炒鸡蛋&lt;/p&gt;
+&lt;p&gt;接着就是赶路回上海啦，黄山之行圆满结束 🔚&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>使用 Hugo 搭建个人博客</title>
+      <link>https://shuyang532.github.io/posts/01_hugo_usage/</link>
+      <pubDate>Wed, 02 Oct 2024 00:01:11 +0800</pubDate>
+      <guid>https://shuyang532.github.io/posts/01_hugo_usage/</guid>
+      <description>&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;设置主题&#34;&gt;设置主题&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://adityatelange.github.io/hugo-PaperMod/&#34;&gt;https://adityatelange.github.io/hugo-PaperMod/&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/papermod
+echo &amp;#34;theme = &amp;#39;papermod&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.toml
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;启动服务&#34;&gt;启动服务&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server
+hugo server --buildDrafts
+hugo server -D
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;添加内容&#34;&gt;添加内容&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new content content/posts/my-first-post.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;draft=true 才会发布出去&lt;/p&gt;
+&lt;h2 id=&#34;打包&#34;&gt;打包&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
   </channel>
 </rss>
