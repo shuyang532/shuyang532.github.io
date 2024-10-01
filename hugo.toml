@@ -1,0 +1,4 @@
+baseURL = 'https://shuyang532.github.io/'
+languageCode = 'zh-cn'
+title = '精神病院患者手记'
+theme = 'papermod'
