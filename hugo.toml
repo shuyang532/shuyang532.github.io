@@ -1,4 +1,119 @@
 baseURL = 'https://shuyang532.github.io/'
-languageCode = 'zh-cn'
 title = '精神病院患者手记'
 theme = 'papermod'
+paginate = 5
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainsections = ['posts']
+
+[minify]
+disableXML = true
+
+[languages.zh]
+languageName = "🇨🇳"
+languageCode = 'zh-CN'
+weight = 1
+
+  [languages.zh.taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+  [[languages.zh.menu.main]]
+  name = "档案"
+  url = "archives/"
+  weight = 1
+
+  [[languages.zh.menu.main]]
+  name = "搜索"
+  url = "search/"
+  weight = 2
+
+  [[languages.zh.menu.main]]
+  name = "标签"
+  url = "tags/"
+  weight = 3
+
+[languages.en]
+languageName = "🇺🇸"
+languageCode = 'en-US'
+weight = 2
+
+  [languages.en.taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+  [[languages.en.menu.main]]
+  name = "Archive"
+  url = "archives/"
+  weight = 1
+
+  [[languages.en.menu.main]]
+  name = "Search"
+  url = "search/"
+  weight = 2
+
+  [[languages.en.menu.main]]
+  name = "Tags"
+  url = "tags/"
+  weight = 3
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+description = "Shuyang532 - https://github.com/shuyang532/shuyang532.github.io"
+author = "Shuyang532"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+
+  [params.profileMode]
+  enabled = false
+
+  [params.homeInfoParams]
+  Title = "-介绍-"
+  Content = """
+👋 欢迎浏览与~~关注~~！
+- **精神病院患者手记**  是一个基于 GitHub Page 的博客站点。
+- 我会在这里分享学习笔记、书评影评、旅游打卡相关的内容，写下一些我的思考。
+- 最近喜欢的一句话，与君共勉：<u>“我想要一个自由自在的人生，在每一个我想要改变，想要尝试一种不同的生活，想要再往前走一步的时候，我永远都有选择的权利和能力”</u>。
+"""
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/shuyang532"
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "shuyang532@gmail.com"
+
+  [params.editPost]
+  URL = "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.assets]
+  disableHLJS = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false

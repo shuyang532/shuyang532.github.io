@@ -2,6 +2,11 @@
 title = '使用 Hugo 搭建个人博客'
 date = 2024-10-02T00:01:11+08:00
 draft = false
+description = ''
+keywords = ['']
+ShowReadingTime = true
+ShowShareButtons = true
+ShowWordCount = true
 +++
 
 ## 介绍
